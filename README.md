@@ -4,7 +4,12 @@
 
 ![LED Ping pong clock](https://cdn.thingiverse.com/assets/7f/b7/18/cf/33/featured_preview_ppbclocksmall.jpg)
 
-From [here](https://www.thingiverse.com/thing:4091854)
+# References
+
+[Inspiration](https://www.thingiverse.com/thing:4091854)
+[Instructable](https://www.instructables.com/Ping-Pong-Ball-LED-Clock/)
+[Code](https://github.com/PlanetaryMotion/pingPongBallClock)
+
 
 # LED and Ball Layout
 
