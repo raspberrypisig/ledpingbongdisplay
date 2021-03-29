@@ -7,7 +7,11 @@
 # References
 
 [Inspiration](https://www.thingiverse.com/thing:4091854)
-[Instructable](https://www.instructables.com/Ping-Pong-Ball-LED-Clock/)
+
+[Youtube build step-byt-step](https://www.youtube.com/watch?v=jIoWmhVCPb4)
+
+[Instructable Build Instructions](https://www.instructables.com/Ping-Pong-Ball-LED-Clock/)
+
 [Code](https://github.com/PlanetaryMotion/pingPongBallClock)
 
 
