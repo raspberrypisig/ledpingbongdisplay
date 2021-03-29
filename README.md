@@ -8,7 +8,7 @@
 
 [Inspiration](https://www.thingiverse.com/thing:4091854)
 
-[Youtube build step-byt-step](https://www.youtube.com/watch?v=jIoWmhVCPb4)
+[Youtube build step-by-step](https://www.youtube.com/watch?v=jIoWmhVCPb4)
 
 [Instructable Build Instructions](https://www.instructables.com/Ping-Pong-Ball-LED-Clock/)
 
