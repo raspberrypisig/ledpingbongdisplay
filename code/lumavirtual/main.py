@@ -161,12 +161,21 @@ if __name__ == "__main__":
     lots_of_five_alphanums[-1].append(".")
     lots_of_five_alphanums[-1].append(".")    
     #print(lots_of_five_alphanums)
+   
+    '''
+    with canvas(d) as draw:
+        draw.point((0,0), fill="red")
+        draw.text((-1,-2), "_")
+    sleep(30)
+    '''
 
     for i,_ in enumerate(lots_of_five_alphanums):
         #print(i)
         with canvas(d) as draw:
             text(draw, (0, -1), "".join(lots_of_five_alphanums[i]), "red", font=proportional(font))
         sleep(10)
+    
+
 '''
     with canvas(d) as draw:
         #draw.point((0,0), fill="white")

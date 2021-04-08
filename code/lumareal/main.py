@@ -7,6 +7,7 @@ import luma.core.legacy.font
 from luma.core.legacy.font import proportional
 from luma.core.legacy import text, textsize
 from time import sleep
+from mohanfont import SEG7_CUSTOM_FONT
 
 class wledluma(device):
     def __init__(self, dma_interface=None, width=20, height=7, cascaded=None,
@@ -150,8 +151,11 @@ class wledluma(device):
 
 if __name__ == "__main__":    
     wled = wledluma()
+    #font = getattr(luma.core.legacy.font, "SEG7_FONT")
+    font = SEG7_CUSTOM_FONT
     with canvas(wled) as draw:
         #draw.point((0,0), fill="white")
-        draw.text((0,-3), "ABC" ,fill="white")
+        #draw.text((4,4), "A", fill="red")
+        text(draw, (0, 0),".","red", font=proportional(font))
 
 
