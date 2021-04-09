@@ -7,6 +7,7 @@ import luma.core.legacy.font
 from luma.core.legacy.font import proportional
 from luma.core.legacy import text, textsize
 from time import sleep
+from mohanfont import SEG7_CUSTOM_FONT
 
 class wledluma(device):
     def __init__(self, dma_interface=None, width=20, height=7, cascaded=None,
@@ -162,19 +163,23 @@ if __name__ == "__main__":
     lots_of_five_alphanums[-1].append(".")    
     #print(lots_of_five_alphanums)
    
-    '''
+    
     with canvas(d) as draw:
-        draw.point((0,0), fill="red")
-        draw.text((-1,-2), "_")
+        #draw.point((0,0), fill="red")
+        #draw.text((-1,-2), "_")
+        font = SEG7_CUSTOM_FONT
+        #text(draw, (0,-6), "ABCD", "red", font=proportional(font))
+        text(draw, (3,-1), "ABCD", "red", font=proportional(font))
     sleep(30)
-    '''
+    
 
+    '''
     for i,_ in enumerate(lots_of_five_alphanums):
         #print(i)
         with canvas(d) as draw:
             text(draw, (0, -1), "".join(lots_of_five_alphanums[i]), "red", font=proportional(font))
         sleep(10)
-    
+    '''
 
 '''
     with canvas(d) as draw:
