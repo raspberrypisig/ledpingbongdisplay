@@ -123,8 +123,7 @@ def main():
         currentTime = localtime()
         hour = currentTime.tm_hour
         minute = currentTime.tm_min
-        if oldHour != hour and oldMinute != minute:
-
+        if oldMinute != minute:
             matrix.drawBackground()
             h = hour - 12 if hour > 12 else hour 
             matrix.drawTime(h, minute)
