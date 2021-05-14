@@ -7,7 +7,7 @@ import sacn
 class LEDMatrix:
     ROWS = 7
     COLS = 20
-    WLED_ADDRESS = "192.168.20.45"
+    WLED_ADDRESS = "192.168.20.53"
 
     colors = [
     (158,194,230), #Blue10
@@ -92,8 +92,8 @@ class LEDMatrix:
             row = row + 1
             col = 0
 
-        print(dmxMessage)
-        return dmxMessage        
+        #print(dmxMessage)
+        return dmxMessage[:384]        
 
 
     def sendMessage(self, msg):
